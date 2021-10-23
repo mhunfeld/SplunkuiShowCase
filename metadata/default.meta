@@ -1,0 +1,10 @@
+[app/ui]
+modtime = 1549981691.385113000
+
+[app/launcher]
+modtime = 1549981691.387309000
+
+[html/example1]
+access = read : [ * ], write : [ admin, power ]
+owner = admin
+modtime = 1569246560.326504000
