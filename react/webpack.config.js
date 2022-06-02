@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'eval-source-map',
 
   entry: {
-    example1: './src/example1.js'
+    demo: './src/demo.js'
   },
   output: {
     path: path.join(__dirname, "../appserver/static/react/"),

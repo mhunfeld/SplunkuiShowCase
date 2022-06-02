@@ -27,7 +27,7 @@
       "options": {
        "numberPrecision": 1
       },
-      "title": "Average NPS Score",
+      "title": "Average NPS Score 444",
       "dataSources": {
        "primary": "ds_3dEl97bH"
       }
@@ -559,7 +559,7 @@
      ]
     },
     "description": "",
-    "title": "Customer Satisfaction Dashboard",
+    "title": "Customer Satisfaction Dashboard 555",
     "defaults": {
      "visualizations": {
       "global": {
