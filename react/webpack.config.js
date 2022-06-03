@@ -3,7 +3,6 @@ const path = require("path");
 module.exports = {
   mode: 'development',
   devtool: 'eval-source-map',
-
   entry: {
     base: './src/base/main.js',
     customVisualization: './src/customVisualization/main.js'
@@ -15,6 +14,7 @@ module.exports = {
     globalObject: 'this'
   },
   resolve: {
+    fallback: { "querystring": require.resolve("querystring-es3") },
     extensions: ['.js', '.jsx']
   },
   module: {
