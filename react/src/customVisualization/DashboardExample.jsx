@@ -5,6 +5,8 @@ import { DashboardContextProvider } from '@splunk/dashboard-context';
 import EnterpriseViewOnlyPreset from '@splunk/dashboard-presets/EnterpriseViewOnlyPreset';
 import SplunkThemeProvider from '@splunk/themes/SplunkThemeProvider';
 
+import CustomVisualization from './customVisualisation';
+
 import definition from './definition.json';
 
 const themeToVariant = {
@@ -17,7 +19,8 @@ const themeToVariant = {
 const customPreset = {
     ...EnterpriseViewOnlyPreset,
     visualizations: {
-        ...EnterpriseViewOnlyPreset.visualizations
+        ...EnterpriseViewOnlyPreset.visualizations,
+        'splunk.CustomVisualization': CustomVisualization
     },
 };
 

@@ -20,9 +20,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        use: "babel-loader"
+        test: /\.(js|jsx)$/,
+        use: {
+          loader:"babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+            plugins: ["@babel/plugin-proposal-class-properties", "@babel/plugin-proposal-nullish-coalescing-operator"]
+          }
+        }
       },
       {
         test: /\.css$/,
@@ -33,8 +38,8 @@ module.exports = {
         use: [{
           loader: 'file-loader',
           options: {
-            outputPath: "./resources",
-            publicPath: '/static/app/reactapp/dist/resources'
+            outputPath: "../appserver/static/resources/",
+            publicPath: '/static/app/SplunkuiShowCase/react/resources'
           }
         }]
       }
