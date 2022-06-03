@@ -1,4 +1,4 @@
 <nav search_view="search">
-  <view name="demo" />
+  <view name="base" />
   <view name="search" default="true"/>
 </nav>
