@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<view template="SplunkuiShowCase:/templates/customVisualization.html" type="html">
+	<label>Custom Visualization Dashboard</label>
+</view>
