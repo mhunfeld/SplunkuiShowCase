@@ -1,5 +1,6 @@
 <nav search_view="search">
   <view name="base" />
   <view name="customVisualization" />
+  <view name="customInputs" />
   <view name="search" default="true"/>
 </nav>

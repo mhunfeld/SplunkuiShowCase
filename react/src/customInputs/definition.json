@@ -1,0 +1,36 @@
+{
+  "inputs": {
+    "input_rangeSlider": {
+      "options": {
+        "min": 0,
+        "max": 96,
+        "defaultValue": "-@24h",
+        "step":   12,
+        "id": "my-time-range-slider",
+        "token": "timeslider_tok",
+        "prefix": "-@",
+        "suffix": "h",
+        "labelPrefix": "letzte ",
+        "labelSuffix": "labelSuffix",
+        "theme": "dark",
+        "title": "ahllo"
+      },
+      "title": "range",
+      "width": 500,
+      "type": "input.customInput"
+    }
+  },
+  "layout": {
+    "type": "absolute",
+    "options": {
+      "display": "auto-scale",
+      "height": 750,
+      "showTitleAndDescription": false,
+      "backgroundColor": "#000000"
+    },
+    "structure": [],
+    "globalInputs": ["input_rangeSlider"]
+  },
+  "description": "",
+  "title": "Custom Input"
+}

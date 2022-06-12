@@ -5,7 +5,8 @@ module.exports = {
   devtool: 'eval-source-map',
   entry: {
     base: './src/base/main.js',
-    customVisualization: './src/customVisualization/main.js'
+    customVisualization: './src/customVisualization/main.js',
+    customInputs: './src/customInputs/main.js'
   },
   output: {
     path: path.join(__dirname, "../appserver/static/react/"),

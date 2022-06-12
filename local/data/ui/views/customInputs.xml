@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<view template="SplunkuiShowCase:/templates/customInputs.html" type="html">
+	<label>Custom Inputs Dashboard</label>
+</view>
